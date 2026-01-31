@@ -10,16 +10,3 @@ and Mongo Express UI on Kubernetes using best practices
 - Mongo Express
 - AWS EBS CSI Driver
 
-## 📁 Project Structure
-k8s-mongodb/
-├── mongodb/
-│   ├── mongodb-app.yaml
-│   ├── mongodb-svc.yaml
-│   ├── mongodb-pvc.yaml
-│   ├── mongodb-sc.yaml
-│   ├── mongodb-cm.yaml
-│   └── mongodb-secret.example.yaml
-│
-├── mongo-express/
-│   ├── mongo-express-app.yaml
-│   └── mongo-express-svc.yaml
