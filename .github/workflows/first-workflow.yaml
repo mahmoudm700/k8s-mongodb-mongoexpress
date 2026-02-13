@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 jobs:
-  first-workflow-jop:
+  first-workflow-job:
     name: First Job
     runs-on: ubuntu-latest
     steps: 
@@ -16,4 +16,5 @@ jobs:
         run: ls
         shell: bash
         
+
 
