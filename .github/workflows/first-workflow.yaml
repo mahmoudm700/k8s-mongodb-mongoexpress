@@ -7,6 +7,13 @@ jobs:
     name: First Job
     runs-on: ubuntu-latest
     steps: 
-      - name: run bash command
-        run: echo "first workflow"
+      - name: before checkout action
+        run: ls
         shell: bash
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: after checkout action
+        run: ls
+        shell: bash
+        
+
